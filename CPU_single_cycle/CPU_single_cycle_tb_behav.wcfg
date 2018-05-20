@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPU_single_cycle_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPU_single_cycle_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="76520000fs"></ZoomStartTime>
+      <ZoomEndTime time="245466445fs"></ZoomEndTime>
+      <Cursor1Time time="190190000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/CPU_single_cycle_tb/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/PCWre" type="logic">
+      <obj_property name="ElementShortName">PCWre</obj_property>
+      <obj_property name="ObjectShortName">PCWre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ALUSrcA" type="logic">
+      <obj_property name="ElementShortName">ALUSrcA</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ALUSrcB" type="logic">
+      <obj_property name="ElementShortName">ALUSrcB</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/DBDataSrc" type="logic">
+      <obj_property name="ElementShortName">DBDataSrc</obj_property>
+      <obj_property name="ObjectShortName">DBDataSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/RegWre" type="logic">
+      <obj_property name="ElementShortName">RegWre</obj_property>
+      <obj_property name="ObjectShortName">RegWre</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/nRD" type="logic">
+      <obj_property name="ElementShortName">nRD</obj_property>
+      <obj_property name="ObjectShortName">nRD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/nWR" type="logic">
+      <obj_property name="ElementShortName">nWR</obj_property>
+      <obj_property name="ObjectShortName">nWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/RegDst" type="logic">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ExtSel" type="logic">
+      <obj_property name="ElementShortName">ExtSel</obj_property>
+      <obj_property name="ObjectShortName">ExtSel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/PCSrc" type="array">
+      <obj_property name="ElementShortName">PCSrc[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCSrc[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/Addr" type="array">
+      <obj_property name="ElementShortName">Addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/PCData" type="array">
+      <obj_property name="ElementShortName">PCData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCData[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/Op_code" type="array">
+      <obj_property name="ElementShortName">Op_code[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_code[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/Rs_reg" type="array">
+      <obj_property name="ElementShortName">Rs_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs_reg[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/Rt_reg" type="array">
+      <obj_property name="ElementShortName">Rt_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rt_reg[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/Rd_reg" type="array">
+      <obj_property name="ElementShortName">Rd_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_reg[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/Sa_number" type="array">
+      <obj_property name="ElementShortName">Sa_number[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Sa_number[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/Imm_number" type="array">
+      <obj_property name="ElementShortName">Imm_number[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm_number[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ALU_a" type="array">
+      <obj_property name="ElementShortName">ALU_a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_a[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ALU_b" type="array">
+      <obj_property name="ElementShortName">ALU_b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_b[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/sign" type="logic">
+      <obj_property name="ElementShortName">sign</obj_property>
+      <obj_property name="ObjectShortName">sign</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/Wre_reg" type="array">
+      <obj_property name="ElementShortName">Wre_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Wre_reg[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/Wre_back_data" type="array">
+      <obj_property name="ElementShortName">Wre_back_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Wre_back_data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/myregfile/regFile[6]" type="array">
+      <obj_property name="ElementShortName">[6][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/myregfile/regFile[8]" type="array">
+      <obj_property name="ElementShortName">[8][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/myregfile/regFile[9]" type="array">
+      <obj_property name="ElementShortName">[9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/myregfile/regFile" type="array">
+      <obj_property name="ElementShortName">regFile[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regFile[1:31][31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/MY_Data_Memory/ram" type="array">
+      <obj_property name="ElementShortName">ram[0:120][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[0:120][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ins/IAddr" type="array">
+      <obj_property name="ElementShortName">IAddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IAddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ins/Op_code" type="array">
+      <obj_property name="ElementShortName">Op_code[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_code[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ins/Rs_reg" type="array">
+      <obj_property name="ElementShortName">Rs_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs_reg[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ins/Rt_reg" type="array">
+      <obj_property name="ElementShortName">Rt_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rt_reg[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ins/Rd_reg" type="array">
+      <obj_property name="ElementShortName">Rd_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rd_reg[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ins/Sa_number" type="array">
+      <obj_property name="ElementShortName">Sa_number[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Sa_number[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ins/Imm_number" type="array">
+      <obj_property name="ElementShortName">Imm_number[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm_number[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ins/ram" type="array">
+      <obj_property name="ElementShortName">ram[0:240][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ram[0:240][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_single_cycle_tb/My_CPU/ins/Ins_Data" type="array">
+      <obj_property name="ElementShortName">Ins_Data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Ins_Data[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,1472 @@
+/*
+
+Vivado v2015.3 (64-bit)
+SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+Process ID: 34444
+
+Current time: 	11/18/17 11:36:38 PM GMT+08:00
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1440x900
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_45 64-bit
+Java home: 	D:/Xilinx/Vivado/2015.3/tps/win64/jre
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: E:/code/CPU_single_cycle/CPU_single_cycle
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.3/vivado.ini
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.3/layouts
+
+GUI allocated memory:	163 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 399 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 33 MB (+32084kb) [00:00:09]
+// [Engine Memory]: 343 MB (+208677kb) [00:00:09]
+// TclEventType: PROJECT_OPEN_DIALOG
+// bF:g (cq:JFrame):  Open Project : addNotify
+// Opening Vivado Project: E:\code\CPU_single_cycle\CPU_single_cycle\CPU_single_cycle.xpr. Version: Vivado v2015.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [GUI Memory]: 37 MB (+2801kb) [00:00:14]
+// [Engine Memory]: 416 MB (+58143kb) [00:00:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 416 MB. GUI used memory: 27 MB. Current time: 11/18/17 11:36:40 PM GMT+08:00
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 446 MB (+9086kb) [00:00:16]
+// [GUI Memory]: 49 MB (+9914kb) [00:00:16]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2015.3/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 468 MB (+150kb) [00:00:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 52 MB (+517kb) [00:00:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: CPU_single_cycle; location: E:/code/CPU_single_cycle/CPU_single_cycle; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 754.328 ; gain = 138.762 
+dismissDialog("Open Project"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 494 MB (+2213kb) [00:00:19]
+// y:y (cq:JFrame): Invalid Top Module: addNotify
+// Tcl Message: update_compile_order -fileset sim_1 
+// a:a (cq:JFrame): Critical Messages: addNotify
+// Elapsed time: 21 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:y)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+dismissDialog("Invalid Top Module"); // y:y (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // y:k (I:JPanel, cq:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CPU_single_cycle (CPU_top.v)]", 8); // y:k (I:JPanel, cq:JFrame)
+// PAPropertyPanels.initPanels (CPU_top.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CPU_single_cycle (CPU_top.v)]", 8, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CPU_single_cycle (CPU_top.v)]", 8, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CPU_single_cycle (CPU_top.v)]", 8); // y:k (I:JPanel, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 505 MB. GUI used memory: 33 MB. Current time: 11/18/17 11:37:20 PM GMT+08:00
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, CPU_single_cycle (CPU_top.v)]", 8); // y:k (I:JPanel, cq:JFrame)
+// [GUI Memory]: 57 MB (+2957kb) [00:00:58]
+// Elapsed time: 35 seconds
+selectCodeEditor("CPU_top.v", 150, 88); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("CPU_top.v", 203, 105); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 61 MB (+1611kb) [00:01:40]
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display_top (display_top.v)]", 1, true); // y:k (I:JPanel, cq:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display_top (display_top.v)]", 1, true, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click - Node
+selectCodeEditor("display_top.v", 181, 76); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 176, 64); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 176, 80); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 185, 97); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 190, 113); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 191, 128); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 188, 142); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 177, 155); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 183, 178); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 189, 186); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 187, 201); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 186, 222); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("display_top.v", 139, 69); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 145, 85); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 148, 109); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 164, 119); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 166, 150); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 94, 218); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 94, 231); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 97, 250); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Sat Nov 18 23:38:55 2017] Launched synth_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.xpr. , [IP_Flow 19-1704] No user IP repositories specified. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.xpr. , [Project 1-19] Could not find the file 'E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.srcs/sim_1/new/CPU_single_cycle_tb.v'.. ]", 2, false); // ag:k (JViewport:JComponent, cq:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.xpr. , [Project 1-509] GeneratedRun file for 'synth_1' not found. ]", 3); // ag:k (JViewport:JComponent, cq:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.xpr. , [Project 1-509] GeneratedRun file for 'synth_1' not found. ]", 3); // ag:k (JViewport:JComponent, cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// W:G (cq:JFrame): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, W:G)
+dismissDialog("Synthesis Completed"); // W:G (cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.xpr. , [IP_Flow 19-234] Refreshing IP repositories. ]", 4, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-638] synthesizing module 'display_top' [E:/code/CPU_single_cycle/src/DEBUG/display_top.v:3]. ]", 15, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\code\CPU_single_cycle\src\DEBUG\display_top.v;-;;-;16;-;line;-;3;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-226] default block is never used [E:/code/CPU_single_cycle/src/DEBUG/displayReg.v:53]. ]", 16, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\code\CPU_single_cycle\src\DEBUG\displayReg.v;-;;-;16;-;line;-;53;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+// [GUI Memory]: 66 MB (+1486kb) [00:03:12]
+// [GUI Memory]: 75 MB (+5888kb) [00:03:12]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-226] default block is never used [E:/code/CPU_single_cycle/src/DEBUG/displayReg.v:53]. ]", 16, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\code\CPU_single_cycle\src\DEBUG\displayReg.v;-;;-;16;-;line;-;53;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-256] done synthesizing module 'clkdiv_190hz' (1#1) [E:/code/CPU_single_cycle/src/DEBUG/clkdiv_190hz.v:4]. ]", 17, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\code\CPU_single_cycle\src\DEBUG\clkdiv_190hz.v;-;;-;16;-;line;-;4;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+// [GUI Memory]: 84 MB (+5544kb) [00:03:31]
+selectCodeEditor("clkdiv_190hz.v", 158, 87); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 145, 109); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 152, 120); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 168, 135); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 165, 144); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 157, 171); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 157, 182); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 159, 194); // bl:J (JPanel:JComponent, cq:JFrame)
+// [Engine Memory]: 519 MB (+313kb) [00:03:41]
+selectCodeEditor("clkdiv_190hz.v", 201, 195); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 217, 197); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 240, 201); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 58, 235); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("clkdiv_190hz.v", 42, 177); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Sat Nov 18 23:40:22 2017] Launched synth_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_top.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 527 MB. GUI used memory: 37 MB. Current time: 11/18/17 11:40:25 PM GMT+08:00
+selectCodeEditor("display_top.v", 205, 54); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("display_top.v", 167, 108); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 171, 125); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 202, 122); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 197, 135); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// W:G (cq:JFrame): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Sat Nov 18 23:40:52 2017] Launched impl_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+selectCodeEditor("display_top.v", 154, 312); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 141, 315); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 179, 313); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 188, 315); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display_top (display_top.v), my_debouncing - debouncing (debouncing.v)]", 4, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, display_top (display_top.v), my_debouncing - debouncing (debouncing.v)]", 4, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectCodeEditor("debouncing.v", 66, 348); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_FAILED
+// W:G (cq:JFrame): Implementation Failed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, W:G)
+dismissDialog("Implementation Failed"); // W:G (cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clkdiv_190hz.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debouncing.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 89 seconds
+selectCodeEditor("displayReg.v", 286, 98); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "displayReg.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("display_top.v", 210, 140); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 210, 130); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 202, 141); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 199, 159); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 191, 179); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 189, 194); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 187, 211); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 188, 201); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 186, 175); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 190, 165); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 190, 143); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 188, 117); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 151, 73); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 163, 91); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 88 MB (+269kb) [00:07:05]
+selectCodeEditor("display_top.v", 156, 128); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 154, 112); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 152, 93); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 152, 85); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 153, 78); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 155, 71); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 152, 80); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 157, 102); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 167, 108); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 171, 122); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 172, 134); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 170, 129); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 168, 109); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 166, 96); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 166, 85); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 165, 72); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 168, 52); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 168, 67); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 168, 77); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 176, 99); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 182, 127); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 182, 141); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 181, 125); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 174, 106); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 168, 85); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 168, 70); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor("display_top.v", 63, 390); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 75 seconds
+selectCodeEditor("display_top.v", 153, 105); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("display_top.v", 180, 181); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 94 seconds
+selectCodeEditor("display_top.v", 123, 192); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 130, 211); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 167, 233); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 183, 260); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 175, 242); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 171, 225); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 167, 207); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 169, 218); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 172, 233); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 239, 316); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 144, 351); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 225, 310); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 87, 292); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("display_top.v", 139, 268); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("display_top.v", 178, 129); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:I, cq:JFrame)
+selectCodeEditor("display_top.v", 103, 106); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 96, 89); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 94, 71); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 99, 86); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 110, 102); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 152, 122); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 158, 140); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Sat Nov 18 23:48:29 2017] Launched synth_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/synth_1/runme.log [Sat Nov 18 23:48:29 2017] Launched impl_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// W:G (cq:JFrame): Implementation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 550 MB. GUI used memory: 40 MB. Current time: 11/18/17 11:50:25 PM GMT+08:00
+// [Engine Memory]: 550 MB (+5302kb) [00:14:00]
+// Elapsed time: 187 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bF:g (cq:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 40 MB. Current time: 11/18/17 11:51:40 PM GMT+08:00
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 40 MB. Current time: 11/18/17 11:51:40 PM GMT+08:00
+// [Engine Memory]: 756 MB (+187992kb) [00:15:14]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 837 MB (+45025kb) [00:15:15]
+// Package: addNotify
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.3 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [E:/code/CPU_single_cycle/CPU_single_cycle/.Xil/Vivado-34444-wyf/dcp/display_top.xdc] Finished Parsing XDC File [E:/code/CPU_single_cycle/CPU_single_cycle/.Xil/Vivado-34444-wyf/dcp/display_top.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 962.184 ; gain = 2.145 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 962.184 ; gain = 2.145 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dt' command handler elapsed time: 7 seconds
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 63, 68, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 63, 68, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 93 MB (+564kb) [00:15:19]
+dismissDialog("Open Implemented Design"); // bF:g (cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 138, 156, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 138, 156, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 168, 244, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 168, 244, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 169, 244, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 169, 244, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 244, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 244, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 170, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 172, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 172, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 173, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 177, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 177, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 178, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 178, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 180, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 180, 245, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 180, 244, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 180, 244, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 181, 243, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 181, 243, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 182, 243, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 182, 243, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 182, 242, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 182, 242, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 183, 242, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 183, 242, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 184, 242, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 184, 242, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 184, 241, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 184, 241, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 185, 240, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 185, 240, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// [Engine Memory]: 885 MB (+6449kb) [00:15:20]
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 185, 239, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 185, 239, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 186, 239, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 186, 239, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 186, 238, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 186, 238, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 187, 237, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 187, 237, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 187, 236, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 187, 236, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 188, 234, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 188, 234, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 188, 233, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - K2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 188, 233, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 232, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 232, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 231, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 231, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 230, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 230, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 229, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 229, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 228, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 228, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 227, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 189, 227, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 190, 227, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 190, 227, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 190, 226, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 190, 226, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 191, 225, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 191, 225, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 191, 224, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 191, 224, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 191, 223, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 191, 223, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 192, 223, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 192, 223, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 192, 222, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 192, 222, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 192, 221, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 192, 221, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 192, 220, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 192, 220, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 193, 220, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 193, 220, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 193, 219, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - J2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 193, 219, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 219, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 219, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 218, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 218, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 217, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 217, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 195, 216, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 195, 216, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 195, 215, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 195, 215, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 195, 213, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 195, 213, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 196, 212, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 196, 212, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 196, 210, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 196, 210, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 196, 205, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 196, 205, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 196, 201, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 196, 201, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 195, 199, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 195, 199, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 195, 195, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 195, 195, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 192, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'I/O Bank - I/O Bank 35'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 194, 192, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - H2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 193, 190, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - H2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 193, 190, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - G2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 188, 174, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - G2'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 188, 174, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 176, 144, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 176, 144, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 173, 136, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 173, 136, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - E1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 169, 128, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - E1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 169, 128, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - D1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 165, 118, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - D1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 165, 118, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - D1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 160, 105, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - D1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 160, 105, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - C1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 156, 94, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+// Package select: 'Package Pin - C1'
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 156, 94, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 150, 81, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 150, 81, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 146, 71, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 146, 71, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 140, 61, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 140, 61, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 136, 52, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 136, 52, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 130, 42, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 130, 42, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 126, 32, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 126, 32, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 122, 24, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 122, 24, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 120, 15, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 120, 15, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 117, 8, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 117, 8, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 116, 2, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectView(PAResourceOtoP.PAViews_PACKAGE, "Package", 116, 2, 744, 483); // z:aO (TdiGroup:JideTabbedPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_top.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_top.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("display_top.v", 208, 189); // bl:J (JPanel:JComponent, cq:JFrame)
+// [Engine Memory]: 1,239 MB (+324307kb) [00:15:30]
+// RouteApi::initDelayMediator elapsed time: 12.2s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,268 MB. GUI used memory: 70 MB. Current time: 11/18/17 11:52:00 PM GMT+08:00
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 34, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Sat Nov 18 23:52:03 2017] Launched impl_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/runme.log 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 34, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: ERROR: [Common 17-69] Command failed:  Run'impl_1' is already running and cannot be relaunched. 
+// ak:a (cq:JFrame): Launch Run Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, ak:a)
+dismissDialog("Launch Run Critical Messages"); // ak:a (cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// W:G (cq:JFrame): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 99 MB (+905kb) [00:17:06]
+// Elapsed time: 109 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, W:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Bitstream Generation Completed"); // W:G (cq:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bF:g (cq:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2015.3   **** Build date : Sep 28 2015-20:29:55     ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1473.844 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183737304A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/display_top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// [Engine Memory]: 1,317 MB (+17391kb) [00:17:44]
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bF:g (cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,317 MB. GUI used memory: 72 MB. Current time: 11/18/17 11:54:10 PM GMT+08:00
+// Elapsed time: 14 seconds
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a35t_0 (1) ; Programmed", 2, "xc7a35t_0 (1)", 0, true); // f:aw (JViewport:JComponent, cq:JFrame) - Node
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aS:ag (cq:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aS:ag)
+// bF:g (cq:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aS:ag (cq:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/display_top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'y' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // bF:g (cq:JFrame)
+// [GUI Memory]: 104 MB (+326kb) [00:18:29]
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:I, cq:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("display_top.v", 139, 312); // bl:J (JPanel:JComponent, cq:JFrame)
+// [GUI Memory]: 110 MB (+536kb) [00:19:08]
+// Elapsed time: 43 seconds
+selectCodeEditor("display_top.v", 217, 163); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_top.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_top.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// [GUI Memory]: 119 MB (+3844kb) [00:19:24]
+selectCodeEditor("display_top.v", 133, 302); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 125, 312); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("display_top.v", 81, 218); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("display_top.v", 94, 44); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 45, 124); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 38, 124); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("display_top.v", 85, 184); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("display_top.v", 48, 296); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("display_top.v", 154, 263); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("display_top.v", 119, 350); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 33, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Sat Nov 18 23:57:01 2017] Launched synth_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/synth_1/runme.log [Sat Nov 18 23:57:01 2017] Launched impl_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/runme.log 
+// TclEventType: RUN_FAILED
+// W:G (cq:JFrame): Synthesis Failed: addNotify
+selectCheckBox(PAResourceCommand.PACommandNames_MESSAGE_WINDOW, "View Messages", false); // h:JCheckBox (JPanel:JComponent, W:G): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+dismissDialog("Synthesis Failed"); // W:G (cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.xpr. , [Project 1-19] Could not find the file 'E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.srcs/sim_1/new/CPU_single_cycle_tb.v'.. ]", 2, false); // ag:k (JViewport:JComponent, cq:JFrame)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debouncing.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("debouncing.v", 88, 354); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("debouncing.v", 67, 352); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("debouncing.v", 90, 354); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("debouncing.v", 155, 372); // bl:J (JPanel:JComponent, cq:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,340 MB. GUI used memory: 73 MB. Current time: 11/18/17 11:57:50 PM GMT+08:00
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectCodeEditor("debouncing.v", 216, 429); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("debouncing.v", 68, 294); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 33, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:aY (cq:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Sat Nov 18 23:58:07 2017] Launched synth_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/synth_1/runme.log [Sat Nov 18 23:58:07 2017] Launched impl_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 47 seconds
+selectCodeEditor("debouncing.v", 123, 72); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-226] default block is never used [E:/code/CPU_single_cycle/src/DEBUG/displayReg.v:53]. ]", 15, false); // ag:k (JViewport:JComponent, cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// W:G (cq:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 41 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // W:G (cq:JFrame)
+// [GUI Memory]: 126 MB (+1098kb) [00:23:19]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Open Target]", 35, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD, "Open New Target..."); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Run Command: PAResourceCommand.PACommandNames_OPEN_TARGET_WIZARD
+// ap:g (cq:JFrame): Open New Hardware Target: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, ap:g)
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, ap:g)
+// 'x' command handler elapsed time: 3 seconds
+dismissDialog("Open New Hardware Target"); // ap:g (cq:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cq:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // ae:JMenuItem (al:JPopupMenu, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aS:ag (cq:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aS:ag)
+// bF:g (cq:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aS:ag (cq:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/display_top.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bF:g (cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:I, cq:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("debouncing.v", 43, 216); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("debouncing.v", 137, 290); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("debouncing.v", 163, 307); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "displayReg.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_top.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 323 seconds
+selectCodeEditor("display_top.v", 151, 205); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 147, 215); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debouncing.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("debouncing.v", 180, 292); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("debouncing.v", 185, 304); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("debouncing.v", 176, 338); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("debouncing.v", 176, 347); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_top.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("display_top.v", 136, 300); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 33, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bF:g (cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Sun Nov 19 00:06:37 2017] Launched synth_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/synth_1/runme.log [Sun Nov 19 00:06:37 2017] Launched impl_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// W:G (cq:JFrame): Implementation Failed: addNotify
+// Elapsed time: 58 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // W:G (cq:JFrame)
+selectCodeEditor("display_top.v", 153, 412); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("display_top.v", 150, 182); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("display_top.v", 101, 318); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Sun Nov 19 00:08:21 2017] Launched synth_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/synth_1/runme.log [Sun Nov 19 00:08:21 2017] Launched impl_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// W:G (cq:JFrame): Implementation Failed: addNotify
+// [GUI Memory]: 133 MB (+257kb) [00:32:55]
+// Elapsed time: 85 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // W:G (cq:JFrame)
+selectCodeEditor("display_top.v", 184, 264); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 162, 291); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 218, 330); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:I, cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Sun Nov 19 00:09:56 2017] Launched synth_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/synth_1/runme.log [Sun Nov 19 00:09:56 2017] Launched impl_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+selectCodeEditor("display_top.v", 302, 280); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// W:G (cq:JFrame): Implementation Failed: addNotify
+// Elapsed time: 52 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // W:G (cq:JFrame)
+selectCodeEditor("display_top.v", 220, 333); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectCodeEditor("display_top.v", 86, 393); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("display_top.v", 137, 166); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Sun Nov 19 00:11:49 2017] Launched synth_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/synth_1/runme.log [Sun Nov 19 00:11:49 2017] Launched impl_1... Run output will be captured here: E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 43 seconds
+selectCodeEditor("display_top.v", 37, 349); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 110, 315); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// W:G (cq:JFrame): Implementation Completed: addNotify
+// Elapsed time: 32 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bF:g (cq:JFrame):  Reloading : addNotify
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,359 MB. GUI used memory: 74 MB. Current time: 11/19/17 12:13:07 AM GMT+08:00
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 1,359 MB. GUI used memory: 75 MB. Current time: 11/19/17 12:13:07 AM GMT+08:00
+// Tcl Message: refresh_design 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, bF:g)
+// TclEventType: DESIGN_CLOSE
+dismissDialog("Reloading"); // bF:g (cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:I, cq:JFrame) - Node
+selectCodeEditor("display_top.v", 242, 258); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 188, 217); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 121, 241); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 128, 239); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 130, 239, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("display_top.v", 136, 239); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 130, 238); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 125, 237); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 119, 237); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 125, 236); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 129, 236, false, false, false, false, true); // bl:J (JPanel:JComponent, cq:JFrame) - Double Click
+selectCodeEditor("display_top.v", 133, 236); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("display_top.v", 157, 280); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 161, 277); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 157, 277); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 163, 274); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 158, 276); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 160, 275); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("display_top.v", 78, 393); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 155, 163); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("display_top.v", 115, 371); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 183, 373); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 183, 366); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("display_top.v", 152, 371); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// W:G (cq:JFrame): Implementation Completed: addNotify
+// Elapsed time: 78 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bF:g (cq:JFrame):  Open Implemented Design : addNotify
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+dismissDialog("Open Implemented Design"); // bF:g (cq:JFrame)
+selectCodeEditor("display_top.v", 300, 271); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 42 seconds
+selectCodeEditor("display_top.v", 148, 236); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 169, 237); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 191, 254); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("display_top.v", 202, 218); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 199, 205); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 189, 220); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 193, 205); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 199, 188); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 199, 173); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 196, 162); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 197, 143); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 212, 129); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 206, 147); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 204, 155); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 203, 147); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 209, 126); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 206, 143); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 204, 156); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 195, 186); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 194, 192); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 196, 176); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 194, 161); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 193, 145); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 211, 115); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 211, 137); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 206, 162); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 205, 172); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 199, 195); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 201, 180); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 203, 157); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 203, 144); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 208, 123); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 180, 185); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 183, 169); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 177, 146); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 174, 235); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 182, 207); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 189, 182); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 187, 155); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 187, 145); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 215, 114); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 201, 138); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 201, 139); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 195, 158); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 199, 182); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 194, 189); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("display_top.v", 193, 193); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 101 seconds
+selectCodeEditor("display_top.v", 236, 171); // bl:J (JPanel:JComponent, cq:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("display_top.v", 77, 337); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("display_top.v", 165, 259); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("display_top.v", 122, 333); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+selectCodeEditor("display_top.v", 194, 143); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 31 seconds
+selectCodeEditor("display_top.v", 97, 170); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_FAILED
+// W:G (cq:JFrame): Implementation Failed: addNotify
+// Elapsed time: 25 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // W:G (cq:JFrame)
+selectCodeEditor("display_top.v", 129, 371); // bl:J (JPanel:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false, false, false, false, true, false); // ag:k (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// Elapsed time: 21 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false, false, false, false, true, false); // ag:k (JViewport:JComponent, cq:JFrame) - Popup Trigger
+// Elapsed time: 58 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.xpr. ]", 1, true); // ag:k (JViewport:JComponent, cq:JFrame) - Node
+// Elapsed time: 36 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-99] Placer failed with error: 'IO Clock Placer failed'. Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.. ]", 6, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false, false, false, false, false, true); // ag:k (JViewport:JComponent, cq:JFrame) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 7); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, my.xdc]", 9, false); // y:k (I:JPanel, cq:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, my.xdc]", 9, false, false, false, false, false, true); // y:k (I:JPanel, cq:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false, false, false, false, false, true); // ag:k (JViewport:JComponent, cq:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false, false, false, false, false, true); // ag:k (JViewport:JComponent, cq:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false, false, false, false, false, true); // ag:k (JViewport:JComponent, cq:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets button_IBUF] >. . 	button_IBUF_inst (IBUF.O) is locked to IOB_X0Y13. 	 and button_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y0. ]", 5, false, false, false, false, true, false); // ag:k (JViewport:JComponent, cq:JFrame) - Popup Trigger
+selectCodeEditor("my.xdc", 298, 433); // bl:J (JPanel:JComponent, cq:JFrame)
+typeControlKey((HResource) null, "my.xdc", 'v'); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("my.xdc", 36, 333); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("my.xdc", 463, 336); // bl:J (JPanel:JComponent, cq:JFrame)
+selectCodeEditor("my.xdc", 604, 388); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 17, false); // w:Y (v:I, cq:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// G:aY (cq:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:aY)
+// bF:g (cq:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:aY (cq:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bF:g (cq:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+dismissDialog("Starting Design Runs"); // bF:g (cq:JFrame)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_top.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectCodeEditor("display_top.v", 142, 132); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_COMPLETED
+selectCodeEditor("display_top.v", 242, 315); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 24 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.srcs/constrs_1/new/my.xdc:31]. ]", 4, false); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [E:/code/CPU_single_cycle/CPU_single_cycle/CPU_single_cycle.srcs/constrs_1/new/my.xdc:31]. ]", 4, false); // ag:k (JViewport:JComponent, cq:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\code\CPU_single_cycle\CPU_single_cycle\CPU_single_cycle.srcs\constrs_1\new\my.xdc;-;;-;16;-;line;-;31;-;;-;16;-;"); // ag:k (JViewport:JComponent, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "debouncing.v", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "displayReg.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "display_top.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cq:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// W:G (cq:JFrame): Implementation Completed: addNotify
+// Elapsed time: 22 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, W:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // W:G (cq:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Elapsed time: 14 seconds
+selectCodeEditor("display_top.v", 39, 334); // bl:J (JPanel:JComponent, cq:JFrame)
+// TclEventType: RUN_COMPLETED
+// W:G (cq:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 23 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, W:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bF:g (cq:JFrame):  Open Implemented Design : addNotify
+// TclEventType: DESIGN_REFRESH
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+# Current time: 11/19/17 12:25:53 AM GMT+08:00
+# Process ID: 34444
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+java.lang.NullPointerException (See E:/code/CPU_single_cycle/CPU_single_cycle/vivado_pid34444.debug)
+*/

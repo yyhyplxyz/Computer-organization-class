@@ -1,0 +1,17 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/CPU_single_cycle/CPU_single_cycle.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/ALU/ALU32.v,1526825684,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/CPU_top.v,,ALU32,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/CPU_single_cycle_tb.v,1511597125,verilog,,,,CPU_single_cycle_tb,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/CPU_top.v,1526739309,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Control_unit/Control_unit.v,,CPU_single_cycle,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Control_unit/Control_unit.v,1526825114,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Data_Memory/Data_Memory.v,,Control_unit,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Data_Memory/Data_Memory.v,1511597125,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Extend.v,,Data_Memory,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Extend.v,1511597125,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Ins_Memory/Ins_Memory.v,,Extend,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Ins_Memory/Ins_Memory.v,1526556468,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/PC.v,,Ins_Memory,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/PC.v,1511597125,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/RegFile/RegFile.v,,PC,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/RegFile/RegFile.v,1511597125,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/mux2to1_32.v,,RegFile,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/mux2to1_32.v,1511597125,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/mux2to1_5.v,,mux2to1_32,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/mux2to1_5.v,1511597125,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/mux4to1.v,,mux2to1_5,,,,,,,,
+C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/mux4to1.v,1511597125,verilog,,C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/CPU_single_cycle_tb.v,,mux4to1,,,,,,,,

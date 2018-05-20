@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/ALU/ALU32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/CPU_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_single_cycle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Control_unit/Control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_unit
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Control_unit/Control_unit.v:181]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Control_unit/Control_unit.v:194]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Data_Memory/Data_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Ins_Memory/Ins_Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ins_Memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/RegFile/RegFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/mux2to1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/mux2to1_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2to1_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/mux4to1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4to1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/CPU_single_cycle_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_single_cycle_tb

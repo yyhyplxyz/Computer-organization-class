@@ -1,0 +1,25 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 95225f249d924bd1ab09481b7e047e4c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CPU_single_cycle_tb_behav xil_defaultlib.CPU_single_cycle_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Control_unit/Control_unit.v:181]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [C:/Users/yyhyplxyz/Desktop/CPU_single_cycle-revised/src/Control_unit/Control_unit.v:194]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.Ins_Memory
+Compiling module xil_defaultlib.mux2to1_5
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.Extend
+Compiling module xil_defaultlib.mux2to1_32
+Compiling module xil_defaultlib.ALU32
+Compiling module xil_defaultlib.Data_Memory
+Compiling module xil_defaultlib.mux4to1
+Compiling module xil_defaultlib.Control_unit
+Compiling module xil_defaultlib.CPU_single_cycle
+Compiling module xil_defaultlib.CPU_single_cycle_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CPU_single_cycle_tb_behav
